@@ -1,0 +1,162 @@
+# 🎓 Révision Pro - Application de Révision par Répétition Espacée
+
+Application web complète pour réviser efficacement avec la méthode de Leitner (répétition espacée).
+
+## ✨ Fonctionnalités Principales
+
+### 🔐 Authentification & Sécurité
+
+- Connexion/Inscription sécurisée avec Gmail
+- Données isolées par utilisateur
+- Session persistante
+
+### 📝 Gestion des Cartes
+
+- Ajout simple carte par carte
+- **Ajout en masse** : importez plusieurs cartes d’un coup (format: Question | Réponse)
+- Modification et suppression de cartes
+- Compteur de révisions par carte
+
+### 📊 Statistiques Détaillées
+
+- Nombre total de cartes
+- Cartes à réviser aujourd’hui
+- Cartes maîtrisées (Boîte 5)
+- Taux de précision global
+- Distribution par boîte
+- 🔥 Série de jours consécutifs
+
+### 💾 Export / Import
+
+- **Export JSON** : sauvegarde complète
+- **Export CSV** : compatible Excel
+- **Import JSON** : restauration des données
+- Transfert facile entre appareils
+
+### 🔗 Partage de Thématiques
+
+- Générez un code de partage unique
+- Partagez vos thématiques avec d’autres utilisateurs
+- Importez des thématiques partagées
+
+### ⚙️ Personnalisation
+
+- **Nom d’application modifiable** (adaptez à votre domaine : IEN, Médecine, Droit, etc.)
+- **Périodes de révision personnalisables** :
+  - 2 jours (révision rapide)
+  - 1 semaine (révision modérée)
+  - 1 mois (révision espacée)
+  - 4 mois (révision très espacée)
+  - Personnalisé (Leitner classique)
+
+### 🌓 Mode Sombre
+
+- Interface adaptative
+- Basculement instantané
+- Préférence sauvegardée
+
+### 🔔 Notifications
+
+- Rappels de révision
+- Notifications navigateur
+- Vérification toutes les heures
+
+### 📱 PWA (Progressive Web App)
+
+- Installation sur mobile/desktop
+- Fonctionnement hors ligne
+- Icône sur l’écran d’accueil
+- Expérience application native
+
+## 🚀 Utilisation
+
+1. Créez un compte avec votre adresse Gmail
+1. Personnalisez le nom et les paramètres
+1. Ajoutez vos thématiques d’étude
+1. Créez vos cartes (simple ou en masse)
+1. Révisez régulièrement selon le calendrier
+1. Consultez vos statistiques de progression
+
+## 📚 Format d’ajout en masse
+
+Pour ajouter plusieurs cartes rapidement, utilisez ce format :
+
+```
+Question 1 | Réponse 1
+Question 2 | Réponse 2
+Question 3 | Réponse 3
+```
+
+Exemple concret :
+
+```
+Qu'est-ce que le socle commun ? | Ensemble de connaissances que tout élève doit maîtriser
+Définir le cycle 3 | CM1, CM2 et 6ème - cycle de consolidation
+Missions d'un IEN | Pilotage pédagogique, évaluation, accompagnement
+```
+
+## 🔧 Périodes de révision disponibles
+
+|Période     |Intervalles (en jours) |Usage recommandé                   |
+|------------|-----------------------|-----------------------------------|
+|2 jours     |2, 4, 7, 14, 30        |Révision intensive, examens proches|
+|1 semaine   |7, 14, 21, 30, 60      |Apprentissage modéré               |
+|1 mois      |30, 60, 90, 120, 180   |Apprentissage long terme           |
+|4 mois      |120, 150, 180, 210, 240|Maintien des connaissances         |
+|Personnalisé|1, 3, 7, 14, 30        |Méthode Leitner classique          |
+
+## 📊 Système de Boîtes
+
+- **Boîte 1** : Cartes nouvelles ou à revoir fréquemment
+- **Boîte 2** : Cartes en cours d’apprentissage
+- **Boîte 3** : Cartes partiellement maîtrisées
+- **Boîte 4** : Cartes bien connues
+- **Boîte 5** : Cartes totalement maîtrisées
+
+## 🔗 Partage de Thématiques
+
+1. Cliquez sur 🔗 sur une thématique
+1. Un code unique est généré (ex: ABC12345)
+1. Partagez ce code
+1. Les autres utilisateurs peuvent l’importer
+
+## 💻 Technologies
+
+- HTML5
+- CSS3 (Variables CSS, Grid, Flexbox)
+- JavaScript (ES6+, Vanilla)
+- LocalStorage (persistance)
+- Service Worker (PWA)
+- Notifications API
+- Web Manifest
+
+## 🌐 Compatible
+
+- ✅ Chrome / Edge
+- ✅ Firefox
+- ✅ Safari
+- ✅ Mobile (iOS / Android)
+- ✅ Tablettes
+- ✅ Desktop
+
+## 📱 Installation comme App
+
+### Sur Mobile (iOS/Android)
+
+1. Ouvrez l’app dans votre navigateur
+1. Menu → “Ajouter à l’écran d’accueil”
+1. L’application apparaît comme une app native
+
+### Sur Desktop
+
+1. Ouvrez l’app dans Chrome/Edge
+1. Icône ⊕ dans la barre d’adresse
+1. Cliquez sur “Installer”
+
+## 📄 Licence
+
+Libre d’utilisation pour un usage personnel ou éducatif.
+
+-----
+
+**Version 2.0** - Développé avec ❤️ pour faciliter l’apprentissage
